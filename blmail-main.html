@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+  <title>Hacking Whitney</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <meta name="description" content="You are a part of a hacking team that has recently got into a computer.  Your job is to go through the victim's files and find as much info about them as possible.">
+  <style>
+  .button {
+    cursor: pointer;
+	align: center;
+    text-align: center;
+    color: #fff;
+    background-color: #333399;
+    opacity: 0.8;
+    font-size: 24px;
+    border: 5px;
+    border-radius: 25px
+    box-shadow: 0 8px #999;
+  }
+  .button:hover {opacity: 1;}
+  .button:active {
+    opacity: 1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  </style>
+</head>
+
+<body background="background.png">
+  <div align="left" style="background-color:#5f2d99"><a href="home.html"><img src="x.png"></a></div>
+  <div align="center"><a href="internet.html"><button type="button">Home</button></a><a href="blooble.html"><button type="button">Blooble Search</button></a><a href="blmail.html"><button type="button">Blmail</button></a>
+  <center>
+  <h1>E-mails</h1>
+  <div id="send" style="display:none">E-mail: <input size="35" type="text"><br>
+  Subject: <input size="35" type="text"><br>
+  Message: <input size="200" type="text"><br>
+  <br>
+  <button class="button" onclick="document.getElementById('send').style.display = 'none'; alert('E-mail Sent!')">Send</button><br><br><button class="button" onclick="document.getElementById('send').style.display = 'none';">Cancel</button>
+  </div>
+  <br>
+  <br>
+  <center>
+  <a href= "notice.html"><div style="background-color:#ddcdff; border:thin dotted gray">NON-EDUCATIONAL SCHOOL NOTICE - from staff@non-educational.school.org</div></a><br>
+  <a href= "lifehack.html"><div style="background-color:#ddcdff; border:thin dotted gray">THIS AMAZING LIFE HACK WILL PREVENT YOU FROM EVER HAVING TO SEE THE DOCTOR!!! - from billyjoe@lifehackzzzz.net</div></a></br>
+  <a href= "ad.html"><div style="background-color:#ddcdff; border:thin dotted gray">Annoyed at your parents?  We can help! - from moveout@blahoo.com</div></a></br>
+  <a href= "friend.html"><div style="background-color:#ddcdff; border:thin dotted gray"><font color="red">URGENT!!!</font> OMG U HAVE 2 SEE THIS! - from alex.aaron@blmail.com</div></a></br>
+  <a href= "addd.html"><div style="background-color:#ddcdff; border:thin dotted gray">Experience The Thrill Of Hitchhiking! - from join@blber.com</div></a></br>
+  <button class="button" onclick="document.getElementById('send').style.display = 'block';">Compose</button>
+  </center>
+<body>
+<html>
+  

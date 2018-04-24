@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+  <title>Hacking Whitney</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <meta name="description" content="You are a part of a hacking team that has recently got into a computer.  Your job is to go through the victim's files and find as much info about them as possible.">
+  <style>
+  .button {
+    cursor: pointer;
+	align: center;
+    text-align: center;
+    color: #fff;
+    background-color: #333399;
+    opacity: 0.8;
+    font-size: 24px;
+    border: 5px;
+    border-radius: 25px
+    box-shadow: 0 8px #999;
+  }
+  .button:hover {opacity: 1;}
+  .button:active {
+    opacity: 1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  </style>
+</head>
+<body>
+  <div align="left" style="background-color:#5f2d99"><a href="home.html"><img src="x.png"></a></div>
+  <div align="center"><a href="internet.html"><button type="button">Home</button></a><a href="blooble.html"><button type="button">Blooble Search</button></a><a href="blmail.html"><button type="button">Blmail</button></a>
+  <center>
+  <div border="1 dotted gray"><h1>Annoyed at your parents?  We can help!</h1>
+  With real estate prices starting at $5,687,731, we make it easy to get away from your parents.<br>
+  <button class="button" onclick="document.getElementById('reply').style.display = 'block';">Reply</button><br>
+  <br>
+  <a href="blmail-main.html"><button class="button">Close</button></a>
+  </div>
+  <div id="reply" style="display:none">
+  Message: <input size="200" type="text"><br>
+  <br>
+  <button class="button" onclick="document.getElementById('reply').style.display = 'none'; alert('Reply Sent!')">Send</button><br><br><button class="button" onclick="document.getElementById('reply').style.display = 'none';">Cancel</button>
+  </div>
+</body>
+</html>
